@@ -16,7 +16,7 @@ app.use( express.static('public') );
 app.get('/', (req, res) => {
   res.render('home', {
     titulo: 'Handlebars Engine',
-    nombre: 'by Sergio Turpín'
+    nombre: 'by Sergio Turpin'
   });
 })
 
